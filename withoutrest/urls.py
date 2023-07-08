@@ -19,7 +19,7 @@ from django.urls import path
 from testapp import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('outjs/', views.emp_data_view),
     path('Jdata/', views.emp_data_jsonview),
 ]

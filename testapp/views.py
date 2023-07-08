@@ -22,3 +22,5 @@ def emp_data_jsonview(request):
     }
     json_data = json.dumps(emp_data)
     return HttpResponse(json_data, content_type = 'application/json')
+
+print("hello")
